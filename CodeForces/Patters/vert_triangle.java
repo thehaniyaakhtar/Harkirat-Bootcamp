@@ -11,7 +11,7 @@ public class Main{
             System.out.println();
         }
         
-        for(int j = a; j >= 1; j--){
+        for(int j = a-1; j >= 1; j--){
             System.out.print("* ".repeat(j));
             System.out.println();
         }
