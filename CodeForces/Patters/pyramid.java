@@ -7,7 +7,7 @@ public class Main{
         int a = sc.nextInt();
         
         for(int i = 1; i < a; i++){
-                    System.out.print("*".repeat(i));
+                    System.out.println("*".repeat(i));
                    
         }
         
