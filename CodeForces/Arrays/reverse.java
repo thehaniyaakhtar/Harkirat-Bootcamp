@@ -23,6 +23,9 @@ public class Main{
             start++;
             end--;
         }
-        System.out.println(arr[i] + " ");
+        
+        for(int i = 0; i < n; i++){
+            System.out.print(arr[i] + " ");
+        }
     }
 }
