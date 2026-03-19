@@ -23,6 +23,6 @@ public class Main{
             start++;
             end--;
         }
-        System.out.println(Arrays.toString(arr));
+        System.out.println(arr[i] + " ");
     }
 }
