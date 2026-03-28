@@ -14,8 +14,8 @@ public class Main{
         int right = n / 2;
         
         while(left >= 0 && right < n){
-            System.out.print(left + " ");
-            System.out.print(right + " ");
+            System.out.print(arr[left] + " ");
+            System.out.print(arr[right] + " ");
             left--;
             right++;
         }
