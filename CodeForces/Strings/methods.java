@@ -35,3 +35,32 @@ s.trim()
 Character.isLetter(c)
 Character.isDigit(c)
 Character.isLetterOrDigit(c)
+
+StringBuilder sb = new StringBuilder();
+
+sb.append("abc")
+sb.reverse()
+sb.toString()
+sb.deleteCharAt(i)
+
+// Convert string 
+char[] arr = s.toCharArray()
+String s1 = new String(arr)
+
+// traversing
+for(char c : s.toCharArray()){
+    
+}
+
+// Word Count Patterns
+s.trim().split("\\s+").length
+
+if(s.charAt(i) != ' ' && (i == 0 || s.charAt(i-1) == ' '))
+
+// replace
+s.replace('a', 'b')
+s.replaceAll('regex', 'value')
+
+// search
+s.contains("abc")
+s.indexOf('a')
